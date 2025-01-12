@@ -1,0 +1,23 @@
+/* Container for the section */
+.mountain {
+    position: relative;
+    height: 300px;
+}
+
+/* Background image with blur */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('images/make.jpg') center/cover no-repeat;
+    filter: blur(10px); /* Applies the blur effect to the background image */
+    z-index: -1; /* Keeps the background image behind the content */
+}
+
+/* Content inside the section (Navbar and Form) */
+.container {
+    position: relative;
+    z-index: 1; /* Keeps the text and content on top of the blurred background */
+}
