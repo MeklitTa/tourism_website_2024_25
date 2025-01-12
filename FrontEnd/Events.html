@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wonder Tour</title>
+    <link rel="stylesheet" href="./assets/css/font.css" />
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/destination.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  </head>
+  <body>
+<section class="mountain">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a href="home.html" class="text-decoration-none text-white  nav-bar-brand"
+                        style="font-family: Roboto, sans-serif; font-size: 20px;line-height: 16px;">
+                        Wonder<span id="tours" style="margin-left: 50px; font-family: Pacifico ; font-size: 12px;">
+                            <p> Tours</p>
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" style="background-color: white;" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-white"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            
+                            <li class="nav-item">
+                                <a href="Home.html" class="nav-link text-white text-decoration-none"
+                                    style="font-size: 16px; font-weight: 600; line-height: 130%; margin: 0 5px;">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="destination.html" class="nav-link text-white text-decoration-none"
+                                    style="font-size: 16px; font-weight: 600; line-height: 130%; margin: 0 5px;">
+                                    Destination
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="events.html" class="nav-link text-white text-decoration-none"
+                                    style="font-size: 16px; font-weight: 600; line-height: 130%; margin: 0 5px;">
+                                    Events
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="pro.html" class="nav-link text-white text-decoration-none"
+                                    style="font-size: 16px; font-weight: 600; line-height: 130%; margin: 0 5px;">
+                                    Lodging
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact_us.html" class="nav-link text-white text-decoration-none"
+                                    style="font-size: 16px; font-weight: 600; line-height: 130%; margin: 0 5px;">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center" style="gap: 10px;">
+                            <a class="nav-link text-white text-decoration-none mb-2">Signup</a>
+                            <button class="btn text-white "
+                                style="background-color: black; padding: 8px;border-radius: 25px; font-family: Open Sans, serif; font-weight: 300;">Log
+                                in</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="text ">
+                <h1>Discover the Wonders of Ethiopia: Unforgettable Experiences Await!</h1>
+                <p>Experience the magic of Ethiopia, where ancient traditions meet breathtaking adventures in a land of unimaginable beauty.</p>
+            </div>
+<div class="socials d-flex justify-content-center gap-3 w-100">
+                <div class="circle pin align-items-center text-center rounded-circle">
+                    <a href="#" class="text-white"><i class="fa-brands fa-instagram font-size-20"></i></a>
+                </div>
+                <div class="circle align-items-center text-center rounded-circle">
+                    <a href="#" class="text-white"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="circle pin align-items-center text-center rounded-circle"> 
+                    <a href="#" class="text-white"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </section>
+    <!-- -----------------------------------nav--------------------------------------------------- -->
+  <div class="container">
+    <div class="row" >
+        <h2 class="h2 mt-3">Ethiopian Cultural Festivals</h2>
+        <div class="col mb-3">
+            <div class="card p-3">
+                <img src=".\assets\images\Eventsimage\lalibela-christmas.jpg" class="card-img-top" alt="lalibela-christmas">
+                <div class="card-body">
+                    <h5 class="card-title">Ethiopian Christmas (Leddet/Genna) (7th January)</h5>
+                    <p class="card-text">Christmas in Ethiopia is celebrated on the 7th of January each year. A magical time to be in the country, particularly in the religious epicenter of Lalibela, or the bustling capital of Addis Ababa.</p>
+                    <a href="#" class="btn btn-primary" onclick="toggleDetails(this)">View Details</a>
+                    <div class="card-details d-none">
+                      <p>A magical time to be in the country, particularly in the religious epicenter of Lalibela, or the bustling capital of Addis Ababa.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-3">
+            <div class="card p-3">
+                <img src=".\assets\images\Eventsimage\Islamic-Festivals.jpg" class="card-img-top" alt="Islamic-Festivals">
+                <div class="card-body">
+                    <h5 class="card-title">Islamic Festivals</h5>
+                    <p class="card-text">As Ethiopia is the home of first Islamic settlement in Africa, the Islamic festivals are one of the exuberant ones.</p>
+                    <a href="#" class="btn btn-primary" onclick="toggleDetails(this)">View Details</a>
+                    <div class="card-details d-none">
+                      <p>The usual Islamic holidays are celebrated in Ethiopia, especially in and around Harar. 
+                        At the end of the fasting month of Ramadan, the first day of the month of Shewal is celebrated as Eid-al-Fitr. 
+                        This is followed by six days of fasting. The 8th day of the month of Shewal is Shewal Eid – a special Harari cultural festival, 
+                        consisting of 24 hours of celebrations. Harar also comes alive during the Ashura ceremony, 
+                        which takes place on the 10th day of Muharram, the first month of the Islamic calendar.
+                        Important Islamic pilgrimage sites holding annual festivals include the Al-Nejash Mosque in Tigray and the Sof Omar Caves and Dire Sheikh Hussein in the lowlands east of the Bale Mountains.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-3">
+            <div class="card p-3">
+                <img src=".\assets\images\Eventsimage\Irrecha-Thanksgiving-day-of-the-Oromos.jpg" class="card-img-top" alt="Irrecha-Thanksgiving-day-of-the-Oromos">
+                <div class="card-body">
+                    <h5 class="card-title">Irrecha /Thanksgiving day of the Oromos/</h5>
+                    <p class="card-text">Irreecha is thanksgiving day which signals the change of the rainy season to the sunny season, and it’s chiefly an annual thanksgiving day of the Oromo people of Ethiopia.</p>
+                    <a href="#" class="btn btn-primary" onclick="toggleDetails(this)">View Details</a>
+                    <div class="card-details d-none">
+                      <p>Irrecha is the annual thanksgiving day of the Oromo people which celebrate annually by the last week of September.  
+                        According to the Oromo tradition “Irreechaa” itself, means ‘green and fresh grass’ that symbolizes fertility and flourishing life due to the blessing and guidance of the Creator, Waaqaa. 
+                        People gather around river banks and lakesides to make homage for Waqaa (God) for bringing from the rainy to the sunny season.
+                         People come out with colorful traditional outfits and march to water bodies to get blessed by the Aba Geddas.
+                        Despite the main spot of the festival is Bishoftu town, the festival is colorfully celebrated in many parts of the Oromia region.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col mb-3">
+             <div class="card p-3">
+                <img src=".\assets\images\Eventsimage\Timket-Ethiopian-Epiphany.jpg" class="card-img-top" alt="Timket-Ethiopian-Epiphany">
+                <div class="card-body">
+                    <h5 class="card-title">Timket/ Ethiopian Epiphany/</h5>
+                    <p class="card-text"> The most colorful outdoor festival in Ethiopia.</p>
+                    <a href="#" class="btn btn-primary" onclick="toggleDetails(this)">View Details</a>
+                    <div class="card-details d-none">
+                      <p> 
+                      If you are into colorful outdoor festivals Timkat makes the premium of all festivals in Ethiopia. Despite the festival’s roots, it’s base on religion, the cultural part of it is the experience to enjoy.
+                      Timket is the Ethiopian Orthodox equivalent to Epiphany, is celebrated at churches throughout the country on January 19. The best place to be during Timkat is Gondar, 
+                      where the festivities culminate in a crowded and colorful afternoon re-enactment of the first baptism at the 17th century Fasil’s Pool, which is filled with water for the occasion.</p>
+                  </div>
+                </div>
+             </div>
+          </div>
+          <div class="col mb-3">
+            <div class="card p-3">
+              <img src=".\assets\images\Eventsimage\Fitche-Chambalala.jpg" class="card-img-top" alt="Fitche-Chambalala">
+              <div class="card-body">
+                  <h5 class="card-title">Fitche Chambalala</h5>
+                  <p class="card-text">The new year of the sidama people of Ethiopia.</p></p>
+                  <a href="#" class="btn btn-primary" onclick="toggleDetails(this)" >View Details</a>
+                  <div class="card-details d-none">
+                    <p>
+                      Fichee-Chambalaalla is a New Year festival celebrated among the Sidama people. According to the oral tradition, Fichee commemorates a Sidama woman who visited her parents and relatives once a year after her marriage,
+                       bringing buurisame, and a meal prepared from false banana, milk and butter, which was shared with neighbors. Fichee has since become a unifying symbol of the Sidama people. Each year, astrologers determine the correct date for the festival, which is then announced to the clans. 
+                      Communal events take place throughout the festival, including traditional songs and dances. Every member participates irrespective of age, gender, and social status
+                    </p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col mb-3">
+            <div class="card p-3">
+              <img src=".\assets\images\Eventsimage\Ethiopian-Orthodox-girls-festival.jpg" class="card-img-top" alt="Ethiopian-Orthodox-girls-festival">
+              <div class="card-body">
+                  <h5 class="card-title">Ethiopian Orthodox girl’s festival</h5>
+                  <p class="card-text">A vibrant and eagerly awaited annual girls festival in Ethiopia.</p>
+                  <a href="#" class="btn btn-primary" onclick="toggleDetails(this)">View Details</a>
+                  <div class="card-details d-none">
+                    <p>
+                      This festival is one of the unique and colorful festivals in Northern Ethiopia.  Girls of the Ethiopian Orthodox Church celebrate this festival annually by the end of a fasting period called Filesta between 16-26 August every year. 
+                      The festival which named Ashenda, Shadey, Ashndeye, Aynewari, and Solele is reserved only for young girls. The word Ashenda stands for the “tall green grass” which in the minimum has  80-90 centimeter height. Girls put the tall grass on their waist by gathering in groups and going out into streets,
+                      they stage different traditional dances chanting heart titillating songs beating a special drum with their hands. As they go out at their best they lure the opposite sex, with peeled eyes who are alert to choose their best.
+                      In most cases, the girls win suitors. Be a part of this vibrating and intriguing festival in all parts of Tigray and the northern part of the Amhara region.
+                    </p>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+    <div class="row">
+        <h2>Outdoor and Adventure</h2>
+        <div class="col mb-3">
+            <div class="card p-3">
+                <img src=".\assets\images\Eventsimage\Caving.jpg" class="card-img-top" alt="Caving">
+                <div class="card-body">
+                    <h5 class="card-title">Caving</h5>
+                    <p class="card-text">With a number of stellar natural cave systems that stretch across almost every corner of the country, Ethiopia is the ultimate destination for cave adventure and exploration.</p>
+                    <a href="#" class="btn btn-primary" onclick="toggleDetails(this)">View Details</a>
+                    <div class="card-details d-none">
+                      <p>
+                        Some of Africa’s largest and most awe-inspiring cave systems run labyrinthine into the limestone slopes of eastern Ethiopia. Known to be at least 15km long, the Sof Omar Caves, 
+                        carved by the Web River in the lowlands east of Bale, is Africa’s largest network of limestone caverns. No expertise or experience is required to explore a 1.7km walking trail that leads from the main entrance through a series of immense cathedral-like chambers studded with limestone pillars that stand up to 20m high.
+                        The Sof Omar Caves are named after a renowned 12th-century sheikh who took refuge there.  
+                        The little-visited Mount Kundudo, also in the vicinity of Harar, houses a beautiful limestone cave system as well as several superb rock art sites.
+                        Many of Ethiopia’s most characterful churches have been built into or excavated from caves. Accessible examples include the stunning Aksumite church of Yemrehanna Kristos and pretty monastery of Nakuta La’ab, both near Lalibela.
+                      </p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-3">
+            <div class="card p-3">
+                <img src=".\assets\images\Eventsimage\Trekking-and-Horse-riding.jpg" class="card-img-top" alt="Trekking-and-Horse-riding">
+                <div class="card-body">
+                    <h5 class="card-title">Trekking and Horse Riding</h5>
+                    <p class="card-text">The picturesque and mesmerizing Ethiopian mountains offer some of the most marvelous trekking in the whole of Africa.</p>
+                    <a href="#" class="btn btn-primary" onclick="toggleDetails(this)">View Details</a>
+                    <div class="card-details d-none">
+                          <p>
+                            From bracing multi-day high-altitude treks through the Simien and Bale Mountains to moderately demanding day hikes amidst the remote rock-hewn churches of Gheralta, Ethiopia offers practically limitless opportunities for keen walkers.
+                            Described by the intrepid 1920s traveler Rosita Forbes as “the most marvelous of all Abyssinian landscapes”, Simien Mountains National Park, its “stupendous crags” and “gorges of clouded amethyst” rising to 4,533m at Ras Dejen (Africa’s fifth-highest mountain), remains the most popular trekking destination in Ethiopia.
+                            Traversing windswept Afro-alpine moorlands, babbling mountain streams, and intimate evergreen forests, the scenic network of hiking trails through Bale Mountain National Park reliably offers close-up encounters with the endemic Ethiopian wolf, mountain nyala, and Bale monkey
+                            The sandstone cliffs in Gheralta are one of Ethiopia’s most iconic and dramatic landscapes. 
+                          </p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-3">
+            <div class="card p-3">
+                <img src=".\assets\images\Eventsimage\Volcano-and-Desert-Expeditions-1.jpg" class="card-img-top" alt="Volcano-and-Desert-Expeditions-1">
+                <div class="card-body">
+                    <h5 class="card-title">Volcano and Desert Expeditions</h5>
+                    <p class="card-text">Being the home of the larger portion of the Great East African rift valley, Ethiopia is the right place for volcano tour expeditions.</p>
+                    <a href="#" class="btn btn-primary" onclick="toggleDetails(this)">View Details</a>
+                    <div class="card-details d-none">
+                      <p>
+                          Lava-filled volcanic cauldrons, gem-like crater lakes, and steaming vents are among the many reminders of the violent tectonic forces that have molded – and continue to shape parts of – the Ethiopian landscape.
+                          Ethiopia’s most spectacular volcano is Erta Ale, the ‘Smoking Mountain’ of the Afar, whose 613m-high caldera of crumbling black rock contains the oldest of the world’s six semi-permanent lava lakes. Bubbling at temperatures of more than 1,000˚C, this ellipsoid cauldron of black-and-red magma is a truly mesmerizing phenomenon, as violent red fountains of molten rock spurt tens of meters in the sky, accompanied by nose-searing waves of ammonia gas.
+                          Set in the Danakil Desert, Erta Ale is reached along a shadeless 10km footpath that can be treacherously hot in full daylight. At its center lies a staggeringly beautiful field of multicolored geysers fed by the world’s lowest-lying volcanic vents, at 50m below sea level.
+                          Erta Ale and Dallol aside, the Danakil is among the most tectonically active regions on the planet, with more than 30 active volcanoes protruding from its fault lines. These include Gada Ale, a prominent stratovolcano enclosing a lake of boiling sulfur and mud, and the 429m Mount Allu, which most recently erupted in 2008.
+                      </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <h2>Nature Experiences</h2>
+        <div class="col mb-3">
+            <div class="card p-3">
+                <img src=".\assets\images\Eventsimage\Wildlife-Safari-1536x1023.jpg" class="card-img-top" alt="Wildlife">
+                <div class="card-body">
+                    <h5 class="card-title">Wildlife Safari</h5>
+                    <p class="card-text">The Afromontane forests and moorlands of Ethiopia protect some of Africa’s rarest and most alluring large mammal species, while lower lying savannah reserves are home to more typical safari wildlife such as lions and elephants.</p>
+                    <a href="#" class="btn btn-primary" onclick="toggleDetails(this)">View Details</a>
+                    <div class="card-details d-none">
+                      <p>
+                        The Afromontane forests and moorlands of Ethiopia protect some of Africa’s rarest and most alluring large mammal species, while lower-lying savannah reserves are home to more typical safari wildlife such as lions and elephants.
+                        The world’s rarest wild dog, the endangered Ethiopian wolf is a handsome red-and-white carnivore that feeds mainly on rodents such as the giant mole-rat. Around half the global population of this Ethiopian endemic is centered on Bale Mountains National Park, while other strongholds include the Simien Mountains National Park and Guassa Community Conservation Area.
+                        Bale Mountain National Park is also the main stronghold for the endemic mountain nyala, a large spiral-horned antelope associated with fragrant juniper-hagenia forest, and the sole preserve of the Bale monkey, whose tiny range is attributable to its specialized diet of bamboo.
+                        Simien Mountain National Park is traversed by troops of several hundred gelada baboons, a striking Ethiopian endemic rendered unmistakable by the male’s flowing lion-like mane and heart-shaped red chest patch.  
+                      </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-3">
+            <div class="card p-3">
+                <img src=".\assets\images\Eventsimage\Bird-Watching-2-1536x1024.jpg" class="card-img-top" alt="birdwatching">
+                <div class="card-body">
+                    <h5 class="card-title">Bird Watching</h5>
+                    <p class="card-text">As Ethiopia is a global center of avian diversity, birdwatching is one of the fascinating activities to do.</p>
+                    <a href="#" class="btn btn-primary" onclick="toggleDetails(this)">View Details</a>
+                    <div class="card-details d-none">
+                      <p>
+                        With a full 860 species recorded, including 18 found nowhere else in the world, Ethiopia is regarded by experts as one of Africa’s key birding destinations.
+                        Ethiopia’s prime attraction to visiting birders is the presence of 18 full national endemics. These include the spectacular Prince Ruspoli’s Turaco, peculiar Stresemann’s Bush Crow and melodious Abyssinian catbird.
+                        The Nechisar nightjar is regarded to be the world’s rarest bird. The first (and thus far only) live specimen of this localized Ethiopian endemic was observed in 2009.
+                        Ethiopia is the best place in the world to see several dozen regional endemics whose range only otherwise extends into Eritrea, Somalia, or South Sudan.  
+                      </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-3">
+            <div class="card p-3">
+                <img src=".\assets\images\Eventsimage\Coffee-Forest-Tours-1-1536x1023.jpg" class="card-img-top" alt="Coffee-Forest-Tour">
+                <div class="card-body">
+                    <h5 class="card-title">Coffee Forest Tours</h5>
+                    <p class="card-text">The forests that swathe Ethiopia’s western highlands are the original home of coffee, which still grows profusely in the understory along with a wealth of other wildlife and sustainable forest products.</p>
+                    <a href="#" class="btn btn-primary" onclick="toggleDetails(this)">View Details</a>
+                    <div class="card-details d-none">
+                      <p>
+                        The forests that swathe Ethiopia’s western highlands are the original home of coffee, which still grows profusely in the understory along with a wealth of other wildlife and sustainable forest products.
+                        The 7,600km2  Kafa Biosphere Reserve is the largest and most accessible of three such UNESCO-recognised reserves that protect Ethiopia’s western highlands. It is also an important repository of coffee genetic diversity since many different varieties of beans still grow wild in the region.
+                        The coffee-yielding montane rainforests of western Ethiopia also harbor numerous other sustainable forest products, including forest cardamom, forest pepper, and honey.
+                        The new Bonga International Coffee Museum is currently under construction in Bonga, a pleasant forest-fringed town set in the heart of the Kafa Biosphere Reserve.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------------------------------------cards-------------------------------------------- -->
+<footer class="myfooter">
+    <div>
+      <h2 href="home.html" class="text-decoration-none py-3">
+        Wonder <span id="tours" style="font-family: Pacifico"> Tours </span>
+      </h2>
+      <p class="gate">
+        Your gate away to the extraordinary beauty, culture and exhilarating
+        adventures awaiting in the captivating mountains of Ethiopia
+      </p>
+    </div>
+    <div>
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="home.html" class="text-decoration-none">Home</a></li>
+        <li>
+          <a href="destination.html" class="text-decoration-none"
+            >Destination</a
+          >
+        </li>
+        <li>
+          <a href="events.html" class="text-decoration-none">Events</a>
+        </li>
+        <li>
+          <a href="lodging.html" class="text-decoration-none">Lodging</a>
+        </li>
+        <li>
+          <a href="contact_us.html" class="text-decoration-none"
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>Socials</h2>
+      <ul>
+        <li>
+          <a href="home.html" class="text-decoration-none">Instagram</a>
+        </li>
+        <li>
+          <a href="destination.html" class="text-decoration-none"
+            >Pintrest</a
+          >
+        </li>
+        <li>
+          <a href="events.html" class="text-decoration-none">Youtube</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>Contact Us</h2>
+      <ul>
+        <li>
+          <a href="#" class="text-decoration-none">travel@wonder.io</a>
+        </li>
+        <li>
+          <h3 href="#" class="text-decoration-none">+251987654322</h3>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</main>
+
+<script src="./assets/JS/bootstrap.min.js"></script>
+<script src="./assets/JS/script.js"></script>
+</body>
+</html>
